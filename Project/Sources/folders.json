@@ -1,0 +1,116 @@
+﻿{
+	"(sum)": {},
+	"basic unit test": {
+		"methods": [
+			"runTestWIthExceptions"
+		],
+		"classes": [
+			"BasicTest",
+			"BasicUnitTest"
+		]
+	},
+	"complex tests": {
+		"methods": [
+			"runPremissionsTest"
+		],
+		"classes": [
+			"PermissionUnitTest",
+			"PermissionUseCurrentTimeTest",
+			"PermssionBasicTest",
+			"UserEntity"
+		]
+	},
+	"example": {
+		"groups": [
+			"basic unit test",
+			"complex tests",
+			"parameter tests"
+		],
+		"methods": [
+			"test",
+			"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+		]
+	},
+	"exceptions": {
+		"methods": [
+			"onErrCall",
+			"throwsException"
+		],
+		"forms": [
+			"StackTraceDialog"
+		],
+		"classes": [
+			"Error",
+			"Exception"
+		]
+	},
+	"internal": {
+		"groups": [
+			"exceptions",
+			"logging",
+			"system",
+			"test"
+		]
+	},
+	"logging": {
+		"methods": [
+			"handleLoggerListbox",
+			"log_messaage",
+			"logDisplay"
+		],
+		"forms": [
+			"LogDialog"
+		],
+		"classes": [
+			"LogLine"
+		]
+	},
+	"mics": {
+		"methods": [
+			"clearLog"
+		],
+		"forms": [
+			"[TextLog]List"
+		]
+	},
+	"parameter tests": {
+		"methods": [
+			"circle_formula",
+			"runCircleTest"
+		],
+		"classes": [
+			"CircleTest",
+			"CircleUnitTest"
+		]
+	},
+	"system": {
+		"methods": [
+			"manageLoop",
+			"runExit",
+			"runStartup"
+		],
+		"classes": [
+			"Loggable"
+		]
+	},
+	"test": {
+		"methods": [
+			"emojiStatus",
+			"runUnitTest",
+			"unitDisplay",
+			"unitTestErrCall"
+		],
+		"forms": [
+			"UnitTestDisplay"
+		],
+		"classes": [
+			"Test",
+			"UnitTest"
+		]
+	},
+	"trash": {
+		"groups": [
+			"(sum)"
+		]
+	}
+}

@@ -1,0 +1,434 @@
+﻿{
+	"Sources/Classes/Loggable.4dm": {
+		"left": 391,
+		"top": 209,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/manageLoop.4dm": {
+		"left": 75,
+		"top": 137,
+		"width": 1026,
+		"height": 627
+	},
+	"Sources/Methods/runExit.4dm": {
+		"left": 508,
+		"top": 337,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/runStartup.4dm": {
+		"left": 676,
+		"top": 192,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 508,
+		"top": 337,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/DatabaseMethods/onExit.4dm": {
+		"left": 508,
+		"top": 337,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/DatabaseMethods/onHostDatabaseEvent.4dm": {
+		"left": 382,
+		"top": 293,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/assert_catch.4dm": {
+		"left": 448,
+		"top": 194,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/assert_displayLog.4dm": {
+		"left": 42,
+		"top": 293,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Classes/Exception.4dm": {
+		"left": 100,
+		"top": 422,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Classes/LogLine.4dm": {
+		"left": 155,
+		"top": 533,
+		"width": 1041,
+		"height": 423
+	},
+	"Sources/Methods/handleLoggerListbox.4dm": {
+		"left": 460,
+		"top": 214,
+		"width": 778,
+		"height": 484
+	},
+	"Sources/Forms/LogDialogue/method.4dm": {
+		"left": 196,
+		"top": 399,
+		"width": 1082,
+		"height": 617
+	},
+	"Sources/Methods/logDisplay.4dm": {
+		"left": 0,
+		"top": 324,
+		"width": 1041,
+		"height": 584
+	},
+	"Sources/Methods/WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.4dm": {
+		"left": 26,
+		"top": 273,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/test.4dm": {
+		"left": 129,
+		"top": 325,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Classes/Test.4dm": {
+		"left": 463,
+		"top": 166,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Classes/UnitTest.4dm": {
+		"left": 418,
+		"top": 153,
+		"width": 778,
+		"height": 486
+	},
+	"Sources/Forms/UnitTestDisplay/method.4dm": {
+		"left": 109,
+		"top": 391,
+		"width": 777,
+		"height": 496
+	},
+	"Sources/Methods/unitDisplay.4dm": {
+		"left": 200,
+		"top": 398,
+		"width": 777,
+		"height": 488
+	},
+	"Sources/Classes/ExtendedTest.4dm": {
+		"left": 382,
+		"top": 244,
+		"width": 777,
+		"height": 488
+	},
+	"Sources/Classes/BasicUnitTest.4dm": {
+		"left": 366,
+		"top": 494,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Methods/assert_displayUnitTest.4dm": {
+		"left": 125,
+		"top": 281,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/onErrCall.4dm": {
+		"left": 90,
+		"top": 176,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Classes/Error.4dm": {
+		"left": 164,
+		"top": 248,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Methods/assert_try.4dm": {
+		"left": 308,
+		"top": 368,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/StackTraceDialog/method.4dm": {
+		"left": 339,
+		"top": 388,
+		"width": 778,
+		"height": 400
+	},
+	"Trash/Methods/(sum_two).4dm": {
+		"left": 339,
+		"top": 388,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Classes/Test1.4dm": {
+		"left": 471,
+		"top": 191,
+		"width": 777,
+		"height": 496
+	},
+	"Sources/Classes/SumUnitTest.4dm": {
+		"left": 307,
+		"top": 262,
+		"width": 777,
+		"height": 431
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/Button3.4dm": {
+		"left": 572,
+		"top": 147,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/Button2.4dm": {
+		"left": 635,
+		"top": 181,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_preLog.4dm": {
+		"left": 446,
+		"top": 171,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_run.4dm": {
+		"left": 460,
+		"top": 463,
+		"width": 778,
+		"height": 400
+	},
+	"Trash/Methods/(sum_two_numbers).4dm": {
+		"left": 471,
+		"top": 191,
+		"width": 777,
+		"height": 496
+	},
+	"Trash/Methods/(runTest).4dm": {
+		"left": 434,
+		"top": 359,
+		"width": 777,
+		"height": 496
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_clear.4dm": {
+		"left": 499,
+		"top": 239,
+		"width": 778,
+		"height": 486
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_save.4dm": {
+		"left": 256,
+		"top": 233,
+		"width": 778,
+		"height": 486
+	},
+	"Sources/Forms/LogDialog/ObjectMethods/lb_log.4dm": {
+		"left": 460,
+		"top": 252,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Forms/LogDialog/method.4dm": {
+		"left": 136,
+		"top": 382,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_log.4dm": {
+		"left": 460,
+		"top": 252,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_postLog.4dm": {
+		"left": 460,
+		"top": 254,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_run1.4dm": {
+		"left": 460,
+		"top": 252,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_tests.4dm": {
+		"left": 150,
+		"top": 338,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/List Box1.4dm": {
+		"left": 36,
+		"top": 246,
+		"width": 778,
+		"height": 400
+	},
+	"Trash/Methods/(tester).4dm": {
+		"left": 380,
+		"top": 185,
+		"width": 777,
+		"height": 496
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/col_pass.4dm": {
+		"left": 367,
+		"top": 169,
+		"width": 778,
+		"height": 486
+	},
+	"Trash/Methods/(displayCode).4dm": {
+		"left": 89,
+		"top": 223,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/emojiStatus.4dm": {
+		"left": 195,
+		"top": 214,
+		"width": 777,
+		"height": 488
+	},
+	"Sources/Methods/log_messaage.4dm": {
+		"left": 369,
+		"top": 227,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/assert_log.4dm": {
+		"left": 53,
+		"top": 146,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/runUnitTest.4dm": {
+		"left": 450,
+		"top": 245,
+		"width": 778,
+		"height": 487
+	},
+	"Sources/Methods/circle_formula.4dm": {
+		"left": 407,
+		"top": 139,
+		"width": 777,
+		"height": 496
+	},
+	"Sources/Classes/CircleTest.4dm": {
+		"left": 186,
+		"top": 443,
+		"width": 777,
+		"height": 496
+	},
+	"Sources/Methods/throwsException.4dm": {
+		"left": 62,
+		"top": 189,
+		"width": 778,
+		"height": 486
+	},
+	"Sources/Methods/assert_throws.4dm": {
+		"left": 64,
+		"top": 213,
+		"width": 778,
+		"height": 497
+	},
+	"Sources/Classes/CircleUnitTest.4dm": {
+		"left": 78,
+		"top": 150,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Methods/runCircleTest.4dm": {
+		"left": 450,
+		"top": 195,
+		"width": 778,
+		"height": 488
+	},
+	"Trash/Classes/Asserts.4dm": {
+		"left": 57,
+		"top": 199,
+		"width": 778,
+		"height": 486
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/Input1.4dm": {
+		"left": 366,
+		"top": 494,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Methods/unitTestErrCall.4dm": {
+		"left": 322,
+		"top": 534,
+		"width": 778,
+		"height": 485
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_preLog1.4dm": {
+		"left": 460,
+		"top": 254,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Methods/clearLog.4dm": {
+		"left": 690,
+		"top": 205,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Methods/runTestWIthExceptions.4dm": {
+		"left": 22,
+		"top": 412,
+		"width": 777,
+		"height": 496
+	},
+	"Sources/Classes/PermissionUnitTest.4dm": {
+		"left": 366,
+		"top": 494,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Classes/UserEntity.4dm": {
+		"left": 447,
+		"top": 491,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Classes/PermissionTest.4dm": {
+		"left": 447,
+		"top": 491,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Classes/BasicTest.4dm": {
+		"left": 366,
+		"top": 494,
+		"width": 777,
+		"height": 485
+	},
+	"Trash/Classes/PermissionTest.4dm": {
+		"left": 447,
+		"top": 491,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Classes/PermssionBasicTest.4dm": {
+		"left": 447,
+		"top": 491,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Classes/PermissionUseCurrentTimeTest.4dm": {
+		"left": 460,
+		"top": 254,
+		"width": 778,
+		"height": 400
+	},
+	"Sources/Methods/runPremissionsTest.4dm": {
+		"left": 460,
+		"top": 254,
+		"width": 778,
+		"height": 400
+	}
+}

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="UnitTest" uuid="BEE6535B6A928043809BCD98351E29B1" collation_locale="en-ca">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="(Exception)" uuid="27610A4092741F499873CDB200AF4C75" id="1" hide_in_REST="true">
+		<field name="ID" uuid="94015C249ADF974EBEC45AF21D41F1F0" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<primary_key field_name="ID" field_uuid="94015C249ADF974EBEC45AF21D41F1F0"/>
+		<table_extra trashed="true">
+			<editor_table_info fields_ordering="1" displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="TextLog" uuid="103315B0C818C14D8771ACC93F16041C" id="2">
+		<field name="ID" uuid="E6117EFD8898AD44B1C5A6E34FD8D11F" type="4" unique="true" autosequence="true" not_null="true" id="1">
+			<field_extra>
+				<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 Primary Record ID\f1}				</comment>
+				<comment format="text">Primary Record ID				</comment>
+			</field_extra>
+		</field>
+		<field name="line" uuid="831DA9E7E2C2DD4D8BE09FBCA67B3ACC" type="5" never_null="true" id="2">
+			<field_extra>
+				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\tx720\cf1\protect\f0\fs17 The first line of the method call that isn't UnitTest related\f1}																																				]]>				</comment>
+				<comment format="text"><![CDATA[The first line of the method call that isn't UnitTest related																																				]]>				</comment>
+			</field_extra>
+		</field>
+		<field name="name" uuid="8C319BA66A9B8C4CB8D912210B2E1411" type="10" limiting_length="31" never_null="true" id="3">
+			<field_extra>
+				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\tx720\cf1\protect\f0\fs17 The first name of the method that isn't UnitTest related\f1}																																				]]>				</comment>
+				<comment format="text"><![CDATA[The first name of the method that isn't UnitTest related																																				]]>				</comment>
+			</field_extra>
+		</field>
+		<field name="database" uuid="1FB337D2FB6BE94A9CF36245AFEBD4FD" type="10" limiting_length="255" never_null="true" id="4">
+			<field_extra>
+				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\tx720\cf1\protect\f0\fs17 The first name of the databaase that isn't UnitTest related\f1}																																				]]>				</comment>
+				<comment format="text"><![CDATA[The first name of the databaase that isn't UnitTest related																																				]]>				</comment>
+			</field_extra>
+		</field>
+		<field name="type" uuid="91A9B580112B6D4A9E99992E38513C56" type="10" limiting_length="16" never_null="true" id="5">
+			<field_extra>
+				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\tx720\cf1\protect\f0\fs17 The first type of the method that isn't UnitTest related\f1}																																				]]>				</comment>
+				<comment format="text"><![CDATA[The first type of the method that isn't UnitTest related																																				]]>				</comment>
+			</field_extra>
+		</field>
+		<field name="message" uuid="A23678E5F320194494EA81F846CB661A" type="10" never_null="true" id="6">
+			<field_extra>
+				<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 The message to log\f1}				</comment>
+				<comment format="text">The message to log				</comment>
+			</field_extra>
+		</field>
+		<field name="timestamp" uuid="59A37A8992C2BD40BA90DDB8B9A22E23" type="10" limiting_length="30" never_null="true" id="7">
+			<field_extra>
+				<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 Timestamp of the log\f1}				</comment>
+				<comment format="text">Timestamp of the log				</comment>
+			</field_extra>
+		</field>
+		<field name="processName" uuid="3B3C816A3162A2499C496CC2ED408CBB" type="4" never_null="true" id="8">
+			<field_extra>
+				<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 The proccess name that calls it.\f1}				</comment>
+				<comment format="text">The proccess name that calls it.				</comment>
+			</field_extra>
+		</field>
+		<field name="importance" uuid="B5D4F536F980824C8F34CECDFDD07C3E" type="3" never_null="true" id="9">
+			<field_extra>
+				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\tx720\cf1\protect\f0\fs17 The meesage's importance level,\par
+ie. error message, information message and warning message.\f1}																																				]]>				</comment>
+				<comment format="text"><![CDATA[The meesage's importance level,
+ie. error message, information message and warning message.																																				]]>				</comment>
+			</field_extra>
+		</field>
+		<field name="logObject" uuid="015A4124F236984BBDA5152513F14EE2" type="21" blob_switch_size="2147483647" never_null="true" id="10"/>
+		<field name="details" uuid="6742D592E5B6634EA7B77FF851080545" type="21" blob_switch_size="2147483647" never_null="true" id="11">
+			<field_extra>
+				<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 Related details like UnitTest or Exception\f1}				</comment>
+				<comment format="text">Related details like UnitTest or Exception				</comment>
+			</field_extra>
+		</field>
+		<field name="processId" uuid="8305F719C01C3F46803726DDF594C6A5" type="10" limiting_length="255" never_null="true" id="12"/>
+		<primary_key field_name="ID" field_uuid="E6117EFD8898AD44B1C5A6E34FD8D11F"/>
+		<table_extra input_form="List" output_form="List">
+			<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 Logs for the public methods\f1}			</comment>
+			<comment format="text">Logs for the public methods			</comment>
+			<editor_table_info displayable_fields_count="12">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="240" top="40" width="120" height="294.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="ExceptionHolder" uuid="41D006A4737AC841A34AFEE9F9EDD243" id="3">
+		<field name="ID" uuid="312624BBF326A24CB7483AFF987FF821" type="4" unique="true" autosequence="true" not_null="true" id="1">
+			<field_extra>
+				<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 Primary Record ID\f1}				</comment>
+				<comment format="text">Primary Record ID				</comment>
+			</field_extra>
+		</field>
+		<field name="processId" uuid="B4B47D19D43C9040BF837AFCBFAB015E" type="3" never_null="true" id="2">
+			<field_extra>
+				<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 The proccess number that throws the exception.\f1}				</comment>
+				<comment format="text">The proccess number that throws the exception.				</comment>
+			</field_extra>
+		</field>
+		<field name="exception" uuid="FA0983342884AC41BFF158C443B5DD54" type="21" blob_switch_size="2147483647" never_null="true" id="3">
+			<field_extra>
+				<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 The exception Object\f1}				</comment>
+				<comment format="text">The exception Object				</comment>
+			</field_extra>
+		</field>
+		<primary_key field_name="ID" field_uuid="312624BBF326A24CB7483AFF987FF821"/>
+		<table_extra>
+			<comment format="rtf">{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}{\colortbl ;\red0\green0\blue0;}{\*\generator Riched20 10.0.19041}\viewkind4\uc1 \pard\tx720\cf1\protect\f0\fs17 Handles Exceptions, the data here\parwill be temporary until it is being handled.\f1}			</comment>
+			<comment format="text">Handles Exceptions, the data herewill be temporary until it is being handled.			</comment>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="440" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="User" uuid="FBEAEFB09C5AD84A9EFE1938942977EB" id="4">
+		<field name="ID" uuid="4608CB2EB50BB441813B2FB6C4E91901" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="username" uuid="681145F01A95BC4F9A07790EA84864A2" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="password" uuid="D467821FE39EB94AA632216E5FBD11C6" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="allowStart" uuid="96C242B0FF76E9499AA4D90BCD725109" type="9" never_null="true" id="4"/>
+		<field name="allowEnd" uuid="33248A19D3B0954795FD411BF3870146" type="9" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="4608CB2EB50BB441813B2FB6C4E91901"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="640" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="456F874CB59A8947A61DE8BF67D21CBC" type="7">
+		<field_ref uuid="94015C249ADF974EBEC45AF21D41F1F0" name="ID">
+			<table_ref uuid="27610A4092741F499873CDB200AF4C75" name="(Exception)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="8420AA113F144F47A1269942E74E7AC6" type="7">
+		<field_ref uuid="312624BBF326A24CB7483AFF987FF821" name="ID">
+			<table_ref uuid="41D006A4737AC841A34AFEE9F9EDD243" name="ExceptionHolder"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C0E743A55E9F8644BA8F23E3D30F954A" type="7">
+		<field_ref uuid="E6117EFD8898AD44B1C5A6E34FD8D11F" name="ID">
+			<table_ref uuid="103315B0C818C14D8771ACC93F16041C" name="TextLog"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="F2320A278E51AD4BA9859ECB078633F1" type="7">
+		<field_ref uuid="4608CB2EB50BB441813B2FB6C4E91901" name="ID">
+			<table_ref uuid="FBEAEFB09C5AD84A9EFE1938942977EB" name="User"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

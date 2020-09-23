@@ -1,0 +1,322 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Exception Stack Trace",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"i_database1": {
+					"type": "input",
+					"left": 335,
+					"top": 20,
+					"width": 285,
+					"class": "displayField",
+					"dataSource": "Form:C1466.database",
+					"bottom": 40,
+					"height": 20,
+					"enterable": false
+				},
+				"t_message2": {
+					"type": "text",
+					"text": "Message:",
+					"top": 100,
+					"left": 20,
+					"class": "label_side",
+					"right": 100,
+					"bottom": 120,
+					"height": 20,
+					"width": 80
+				},
+				"i_name2": {
+					"type": "input",
+					"left": 110,
+					"top": 70,
+					"width": 330,
+					"class": "displayField",
+					"dataSource": "Form:C1466.name",
+					"bottom": 90,
+					"height": 20,
+					"right": 440,
+					"enterable": false
+				},
+				"i_type1": {
+					"type": "input",
+					"left": 591,
+					"top": 70,
+					"width": 29,
+					"class": "displayField",
+					"dataSource": "Form:C1466.line",
+					"bottom": 90,
+					"dataSourceTypeHint": "integer",
+					"height": 20,
+					"right": 620,
+					"enterable": false
+				},
+				"List Box1": {
+					"type": "listbox",
+					"left": 20,
+					"top": 130,
+					"width": 600,
+					"height": 140,
+					"events": [],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.stacktrace",
+					"right": 620,
+					"sortable": false,
+					"columns": [
+						{
+							"header": {
+								"text": "Database",
+								"name": "Header5"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.database",
+							"width": 90,
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Method Name"
+							},
+							"name": "Column6",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.name",
+							"width": 295,
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header7",
+								"text": "Type"
+							},
+							"name": "Column7",
+							"footer": {
+								"name": "Footer7"
+							},
+							"dataSource": "This:C1470.type",
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header8",
+								"text": "Line"
+							},
+							"name": "Column8",
+							"footer": {
+								"name": "Footer8"
+							},
+							"dataSource": "This:C1470.line",
+							"width": 69,
+							"dataSourceTypeHint": "number",
+							"enterable": false
+						}
+					]
+				},
+				"i_name3": {
+					"type": "input",
+					"left": 441,
+					"top": 70,
+					"width": 149,
+					"class": "displayField",
+					"dataSource": "Form:C1466.type",
+					"bottom": 90,
+					"height": 20,
+					"right": 590,
+					"enterable": false
+				},
+				"Input2": {
+					"type": "input",
+					"left": 110,
+					"top": 280,
+					"width": 420,
+					"height": 20,
+					"class": "displayField",
+					"dataSourceTypeHint": "date",
+					"dataSource": "Form:C1466.timestamp",
+					"right": 530,
+					"enterable": false
+				},
+				"t_message3": {
+					"type": "text",
+					"text": "Timestamp:",
+					"top": 280,
+					"left": 20,
+					"class": "label_side",
+					"right": 100,
+					"bottom": 300,
+					"height": 20,
+					"width": 80
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Close",
+					"top": 275,
+					"left": 540,
+					"width": 80,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"style": "regular",
+					"right": 620,
+					"action": "accept"
+				},
+				"i_message5": {
+					"type": "input",
+					"left": 110,
+					"top": 20,
+					"width": 122,
+					"class": "displayField",
+					"dataSource": "Form:C1466.processName",
+					"bottom": 40,
+					"height": 20,
+					"enterable": false
+				},
+				"t_thrown7": {
+					"type": "text",
+					"text": "Process:",
+					"top": 20,
+					"left": 20,
+					"width": 80,
+					"height": 20,
+					"class": "label_side"
+				},
+				"t_thrown8": {
+					"type": "text",
+					"text": "Database",
+					"top": 20,
+					"left": 236,
+					"width": 94,
+					"height": 15,
+					"class": "label_side"
+				},
+				"t_thrown9": {
+					"type": "text",
+					"text": "Method:",
+					"top": 70,
+					"left": 20,
+					"width": 80,
+					"height": 15,
+					"class": "label_side"
+				},
+				"t_thrown10": {
+					"type": "text",
+					"text": "Line",
+					"top": 50,
+					"left": 591,
+					"width": 29,
+					"height": 20,
+					"class": "label_top"
+				},
+				"t_thrown11": {
+					"type": "text",
+					"text": "Method Type",
+					"top": 50,
+					"left": 441,
+					"width": 149,
+					"height": 20,
+					"class": "label_top"
+				},
+				"t_thrown1": {
+					"type": "text",
+					"text": "Method Name",
+					"top": 50,
+					"left": 110,
+					"width": 330,
+					"height": 15,
+					"class": "label_top"
+				}
+			}
+		},
+		{
+			"objects": {
+				"i_message3": {
+					"type": "input",
+					"left": 110,
+					"top": 100,
+					"width": 510,
+					"class": "displayField",
+					"dataSource": "Form:C1466.message",
+					"bottom": 120,
+					"height": 20,
+					"right": 620,
+					"enterable": false
+				}
+			}
+		},
+		{
+			"objects": {
+				"i_message1": {
+					"type": "input",
+					"left": 311,
+					"top": 100,
+					"width": 309,
+					"class": "displayField",
+					"dataSource": "Form:C1466.message",
+					"bottom": 120,
+					"height": 20,
+					"right": 620,
+					"enterable": false
+				},
+				"i_database2": {
+					"type": "input",
+					"left": 110,
+					"top": 100,
+					"width": 100,
+					"class": "displayField",
+					"dataSource": "Form:C1466.errorCode",
+					"bottom": 120,
+					"height": 20,
+					"enterable": false
+				},
+				"i_database3": {
+					"type": "input",
+					"left": 211,
+					"top": 100,
+					"width": 100,
+					"class": "displayField",
+					"dataSource": "Form:C1466.internalCode",
+					"bottom": 120,
+					"height": 20,
+					"enterable": false
+				}
+			}
+		}
+	],
+	"geometryStamp": 43,
+	"method": "method.4dm"
+}

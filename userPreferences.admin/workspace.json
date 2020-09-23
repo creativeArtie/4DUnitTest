@@ -1,0 +1,54 @@
+﻿{
+	"editors": [
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483543,
+			"codeDescriptor": {
+				"type": 11,
+				"className": "PermssionBasicTest",
+				"methodPath": "/SOURCES/Classes/PermssionBasicTest.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483544,
+			"codeDescriptor": {
+				"type": 11,
+				"className": "PermissionUseCurrentTimeTest",
+				"methodPath": "/SOURCES/Classes/PermissionUseCurrentTimeTest.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483533,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "runPremissionsTest"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483621,
+			"codeDescriptor": {
+				"type": 11,
+				"className": "Test",
+				"methodPath": "/SOURCES/Classes/Test.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483566,
+			"codeDescriptor": {
+				"type": 11,
+				"className": "UserEntity",
+				"methodPath": "/SOURCES/Classes/UserEntity.4dm"
+			}
+		},
+		{
+			"type": "structure"
+		}
+	]
+}

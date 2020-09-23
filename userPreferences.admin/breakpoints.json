@@ -1,0 +1,18 @@
+﻿[
+	{
+		"line": 1,
+		"method": {
+			"type": 1,
+			"methodName": "runPremissionsTest"
+		}
+	},
+	{
+		"line": 1,
+		"method": {
+			"type": 10,
+			"className": "PermssionBasicTest",
+			"functionName": "runTest",
+			"methodPath": "/SOURCES/Classes/PermssionBasicTest.4dm"
+		}
+	}
+]

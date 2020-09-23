@@ -1,0 +1,496 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Unit Test",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Name:",
+					"top": 14,
+					"left": 15,
+					"width": 48,
+					"height": 20
+				},
+				"Input": {
+					"type": "input",
+					"left": 67,
+					"top": 15,
+					"width": 757,
+					"height": 20,
+					"dataSource": "OB Class:C1730(Form:C1466).name",
+					"enterable": false,
+					"fill": "#FFFFFF"
+				},
+				"lb_tests": {
+					"type": "listbox",
+					"left": 15,
+					"top": 60,
+					"width": 880,
+					"height": 145,
+					"events": [
+						"onSelectionChange"
+					],
+					"dataSource": "Form:C1466.tests",
+					"listboxType": "collection",
+					"currentItemSource": "Form:C1466.test",
+					"method": "ObjectMethods/lb_tests.4dm",
+					"selectionMode": "single",
+					"columns": [
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.getName()",
+							"enterable": false,
+							"width": 546
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Pass?"
+							},
+							"name": "col_pass",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.isPass()",
+							"dataSourceTypeHint": "boolean",
+							"width": 52,
+							"enterable": false,
+							"visibility": "hidden",
+							"rowStrokeSource": "",
+							"stroke": "automatic",
+							"controlType": "popup",
+							"booleanFormat": "pass;FAIL"
+						},
+						{
+							"header": {
+								"name": "Header18",
+								"text": "Number of Logs"
+							},
+							"name": "col_logCount",
+							"footer": {
+								"name": "Footer18"
+							},
+							"dataSource": "This:C1470.logLines.length",
+							"visibility": "hidden"
+						},
+						{
+							"header": {
+								"name": "Header19",
+								"text": "Number of Exceptions"
+							},
+							"name": "col_exceptionCount",
+							"footer": {
+								"name": "Footer19"
+							},
+							"dataSource": "This:C1470.exceptions.length",
+							"visibility": "hidden"
+						}
+					]
+				},
+				"Tab Control": {
+					"type": "tab",
+					"text": "Tab control",
+					"top": 211,
+					"left": 14,
+					"width": 881,
+					"height": 314,
+					"labels": [
+						"Setup Log",
+						"Test Log",
+						"Cleanup Log"
+					],
+					"action": "gotoPage"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Cancel",
+					"top": 538,
+					"left": 799,
+					"width": 96,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel"
+				},
+				"b_save": {
+					"type": "button",
+					"text": "Log and Close",
+					"top": 538,
+					"left": 683,
+					"width": 96,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/b_save.4dm"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 844,
+					"top": 15,
+					"width": 51,
+					"height": 22,
+					"dataSource": "emojiStatus(Form:C1466)",
+					"enterable": false,
+					"focusable": true,
+					"textAlign": "center"
+				},
+				"b_run": {
+					"type": "button",
+					"text": "Run Tests",
+					"top": 538,
+					"left": 451,
+					"width": 96,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/b_run.4dm"
+				},
+				"b_clear": {
+					"type": "button",
+					"text": "Clear Tests",
+					"top": 538,
+					"left": 567,
+					"width": 96,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/b_clear.4dm"
+				}
+			}
+		},
+		{
+			"objects": {
+				"lb_preLog": {
+					"type": "listbox",
+					"left": 14,
+					"top": 235,
+					"width": 881,
+					"height": 290,
+					"events": [
+						"onLoad",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "array",
+					"focusable": true,
+					"sortable": false,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"right": 895,
+					"dataSource": "",
+					"method": "ObjectMethods/lb_preLog.4dm",
+					"columns": [
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Type"
+							},
+							"name": "col_type",
+							"width": 34,
+							"footer": {
+								"name": "Footer3"
+							},
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Timestamp",
+								"name": "Header4"
+							},
+							"name": "col_timestamp",
+							"footer": {
+								"name": "Footer4"
+							},
+							"width": 155,
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Process ID"
+							},
+							"name": "col_processId",
+							"footer": {
+								"name": "Footer5"
+							},
+							"width": 67,
+							"enterable": false,
+							"dataSourceTypeHint": "number"
+						},
+						{
+							"header": {
+								"name": "Header20",
+								"text": "Process Name"
+							},
+							"name": "col_processName",
+							"footer": {
+								"name": "Footer20"
+							}
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Location (database:method:line)"
+							},
+							"name": "col_location",
+							"footer": {
+								"name": "Footer6"
+							},
+							"width": 214,
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header7",
+								"text": "Message"
+							},
+							"name": "col_message",
+							"footer": {
+								"name": "Footer7"
+							},
+							"width": 262,
+							"enterable": false
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"lb_log": {
+					"type": "listbox",
+					"left": 14,
+					"top": 235,
+					"width": 881,
+					"height": 290,
+					"events": [
+						"onLoad",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "array",
+					"focusable": true,
+					"sortable": false,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"right": 895,
+					"dataSource": "handleLoggerListbox(Self:C308;Form:C1466.test;True:C214)",
+					"method": "ObjectMethods/lb_log.4dm",
+					"columns": [
+						{
+							"header": {
+								"name": "Header8",
+								"text": "Type"
+							},
+							"name": "col_type1",
+							"width": 34,
+							"footer": {
+								"name": "Footer8"
+							},
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Timestamp",
+								"name": "Header9"
+							},
+							"name": "col_timestamp1",
+							"footer": {
+								"name": "Footer9"
+							},
+							"width": 155,
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header10",
+								"text": "Process ID"
+							},
+							"name": "col_processId1",
+							"footer": {
+								"name": "Footer10"
+							},
+							"width": 67,
+							"enterable": false,
+							"dataSourceTypeHint": "number"
+						},
+						{
+							"header": {
+								"name": "Header11",
+								"text": "Process Name"
+							},
+							"name": "col_processName1",
+							"footer": {
+								"name": "Footer11"
+							}
+						},
+						{
+							"header": {
+								"name": "Header12",
+								"text": "Location (database:method:line)"
+							},
+							"name": "col_location1",
+							"footer": {
+								"name": "Footer12"
+							},
+							"width": 214,
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header13",
+								"text": "Message"
+							},
+							"name": "col_message1",
+							"footer": {
+								"name": "Footer13"
+							},
+							"width": 262,
+							"enterable": false
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"lb_postLog": {
+					"type": "listbox",
+					"left": 14,
+					"top": 235,
+					"width": 881,
+					"height": 290,
+					"events": [
+						"onLoad",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "array",
+					"focusable": true,
+					"sortable": false,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"right": 895,
+					"dataSource": "",
+					"method": "ObjectMethods/lb_postLog.4dm",
+					"columns": [
+						{
+							"header": {
+								"name": "Header14",
+								"text": "Type"
+							},
+							"name": "col_type2",
+							"width": 34,
+							"footer": {
+								"name": "Footer14"
+							},
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Timestamp",
+								"name": "Header15"
+							},
+							"name": "col_timestamp2",
+							"footer": {
+								"name": "Footer15"
+							},
+							"width": 155,
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header16",
+								"text": "Process ID"
+							},
+							"name": "col_processId2",
+							"footer": {
+								"name": "Footer16"
+							},
+							"width": 67,
+							"enterable": false,
+							"dataSourceTypeHint": "number"
+						},
+						{
+							"header": {
+								"name": "Header17",
+								"text": "Process Name"
+							},
+							"name": "col_processName2",
+							"footer": {
+								"name": "Footer17"
+							}
+						},
+						{
+							"header": {
+								"name": "Header21",
+								"text": "Location (database:method:line)"
+							},
+							"name": "col_location2",
+							"footer": {
+								"name": "Footer21"
+							},
+							"width": 214,
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header22",
+								"text": "Message"
+							},
+							"name": "col_message2",
+							"footer": {
+								"name": "Footer22"
+							},
+							"width": 262,
+							"enterable": false
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 88,
+	"method": "method.4dm"
+}

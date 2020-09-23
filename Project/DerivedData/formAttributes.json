@@ -1,0 +1,16 @@
+﻿{
+	"forms": {
+		"LogDialog": {
+			"timeStamp": "2020-09-22T22:40:40.320Z",
+			"destination": "detailScreen"
+		},
+		"StackTraceDialog": {
+			"timeStamp": "2020-09-22T22:34:09.677Z",
+			"destination": "detailScreen"
+		},
+		"UnitTestDisplay": {
+			"timeStamp": "2020-09-23T17:46:17.005Z",
+			"destination": "detailScreen"
+		}
+	}
+}

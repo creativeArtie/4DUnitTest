@@ -1,0 +1,623 @@
+﻿{
+	"Sources/Classes/Loggable.4dm": {
+		"startSelection": 19,
+		"endSelection": 9,
+		"firstSelectedLine": 29,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T22:33:21.905Z"
+	},
+	"Sources/Methods/manageLoop.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-14T18:27:01.029Z"
+	},
+	"Sources/Methods/runExit.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-18T18:03:30.350Z"
+	},
+	"Sources/Methods/runStartup.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-11T19:04:59.549Z"
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-18T18:04:10.010Z"
+	},
+	"Sources/DatabaseMethods/onExit.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-18T18:04:17.144Z"
+	},
+	"Sources/DatabaseMethods/onHostDatabaseEvent.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-18T18:04:49.104Z"
+	},
+	"Sources/Methods/assert_catch.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T19:28:03.023Z"
+	},
+	"Sources/Methods/assert_displayLog.4dm": {
+		"startSelection": 5,
+		"endSelection": 12,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T19:28:06.707Z"
+	},
+	"Sources/Classes/Exception.4dm": {
+		"startSelection": 9,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-07T23:23:45.630Z"
+	},
+	"Sources/Classes/LogLine.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T21:39:59.564Z"
+	},
+	"Sources/Methods/handleLoggerListbox.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 30,
+		"lastSelectedLine": 30,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T22:35:13.231Z"
+	},
+	"Sources/Forms/LogDialogue/method.4dm": {
+		"startSelection": 71,
+		"endSelection": 71,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-18T18:09:42.091Z"
+	},
+	"Sources/Methods/logDisplay.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-21T23:16:33.424Z"
+	},
+	"Sources/Methods/WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.4dm": {
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T18:05:02.383Z"
+	},
+	"Sources/Methods/test.4dm": {
+		"startSelection": 26,
+		"endSelection": 26,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T23:25:43.043Z"
+	},
+	"Sources/Classes/Test.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T21:43:30.799Z"
+	},
+	"Sources/Classes/UnitTest.4dm": {
+		"startSelection": 34,
+		"endSelection": 34,
+		"firstSelectedLine": 152,
+		"lastSelectedLine": 152,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T17:51:06.196Z"
+	},
+	"Sources/Forms/UnitTestDisplay/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T19:11:43.540Z"
+	},
+	"Sources/Methods/unitDisplay.4dm": {
+		"startSelection": 6,
+		"endSelection": 11,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-22T00:45:39.415Z"
+	},
+	"Sources/Classes/ExtendedTest.4dm": {
+		"startSelection": 51,
+		"endSelection": 51,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T17:42:47.353Z"
+	},
+	"Sources/Classes/BasicUnitTest.4dm": {
+		"startSelection": 46,
+		"endSelection": 46,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T17:53:40.611Z"
+	},
+	"Sources/Methods/assert_displayUnitTest.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T19:28:10.463Z"
+	},
+	"Sources/Methods/onErrCall.4dm": {
+		"startSelection": 42,
+		"endSelection": 42,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-14T18:27:01.018Z"
+	},
+	"Sources/Classes/Error.4dm": {
+		"startSelection": 14,
+		"endSelection": 14,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-18T19:01:34.296Z"
+	},
+	"Sources/Methods/assert_try.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T19:28:19.772Z"
+	},
+	"Sources/Forms/StackTraceDialog/method.4dm": {
+		"startSelection": 34,
+		"endSelection": 34,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-18T19:07:28.152Z"
+	},
+	"Sources/Classes/Test1.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-18T20:10:35.412Z"
+	},
+	"Sources/Classes/SumUnitTest.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-21T21:11:56.346Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/Button3.4dm": {
+		"startSelection": 24,
+		"endSelection": 24,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-21T20:58:53.411Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/Button2.4dm": {
+		"startSelection": 24,
+		"endSelection": 24,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-21T21:05:13.787Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_preLog.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-21T23:46:32.328Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_run.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T20:22:35.022Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_clear.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T19:04:57.906Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_save.4dm": {
+		"startSelection": 26,
+		"endSelection": 26,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-14T18:27:01.074Z"
+	},
+	"Sources/Forms/LogDialog/ObjectMethods/lb_log.4dm": {
+		"startSelection": 34,
+		"endSelection": 34,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T22:44:30.439Z"
+	},
+	"Sources/Forms/LogDialog/method.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-22T04:01:21.867Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_log.4dm": {
+		"startSelection": 53,
+		"endSelection": 53,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T22:26:37.073Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_postLog.4dm": {
+		"startSelection": 53,
+		"endSelection": 53,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T23:23:49.434Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_run1.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-21T21:49:18.087Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_tests.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-07T23:39:57.864Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/List Box1.4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-22T03:50:59.891Z"
+	},
+	"Trash/Methods/(tester).4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-08-22T00:32:43.209Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/col_pass.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T20:22:53.143Z"
+	},
+	"Trash/Methods/(displayCode).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-07T22:18:53.035Z"
+	},
+	"Sources/Methods/emojiStatus.4dm": {
+		"startSelection": 5,
+		"endSelection": 5,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-16T17:38:42.715Z"
+	},
+	"Sources/Methods/log_messaage.4dm": {
+		"startSelection": 27,
+		"endSelection": 27,
+		"firstSelectedLine": 40,
+		"lastSelectedLine": 40,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T22:56:43.181Z"
+	},
+	"Sources/Methods/assert_log.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T19:28:13.169Z"
+	},
+	"Sources/Methods/runUnitTest.4dm": {
+		"startSelection": 26,
+		"endSelection": 26,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T17:52:36.912Z"
+	},
+	"Sources/Methods/circle_formula.4dm": {
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T18:20:05.470Z"
+	},
+	"Sources/Classes/CircleTest.4dm": {
+		"startSelection": 1,
+		"endSelection": 1,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T18:26:49.519Z"
+	},
+	"Sources/Methods/throwsException.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 44,
+		"lastSelectedLine": 44,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-16T17:20:01.134Z"
+	},
+	"Sources/Methods/assert_throws.4dm": {
+		"startSelection": 36,
+		"endSelection": 36,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-16T17:22:47.886Z"
+	},
+	"Sources/Classes/CircleUnitTest.4dm": {
+		"startSelection": 50,
+		"endSelection": 50,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T20:22:13.820Z"
+	},
+	"Sources/Methods/runCircleTest.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T18:23:40.685Z"
+	},
+	"Trash/Classes/Asserts.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T21:14:10.309Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/Input1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T19:12:42.681Z"
+	},
+	"Sources/Methods/unitTestErrCall.4dm": {
+		"startSelection": 47,
+		"endSelection": 47,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T22:05:17.299Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/lb_preLog1.4dm": {
+		"startSelection": 6,
+		"endSelection": 6,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-22T22:26:37.073Z"
+	},
+	"Sources/Methods/clearLog.4dm": {
+		"startSelection": 27,
+		"endSelection": 27,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-07T21:51:49.449Z"
+	},
+	"Sources/Methods/runTestWIthExceptions.4dm": {
+		"startSelection": 50,
+		"endSelection": 50,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-15T21:25:54.078Z"
+	},
+	"Sources/Classes/PermissionUnitTest.4dm": {
+		"startSelection": 54,
+		"endSelection": 54,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T18:40:46.573Z"
+	},
+	"Sources/Classes/UserEntity.4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T17:52:22.705Z"
+	},
+	"Sources/Classes/PermissionTest.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T17:57:45.322Z"
+	},
+	"Sources/Classes/BasicTest.4dm": {
+		"startSelection": 9,
+		"endSelection": 0,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 18,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T17:52:02.217Z"
+	},
+	"Trash/Classes/PermissionTest.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T17:57:45.322Z"
+	},
+	"Sources/Classes/PermssionBasicTest.4dm": {
+		"startSelection": 36,
+		"endSelection": 36,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T18:31:23.552Z"
+	},
+	"Sources/Classes/PermissionUseCurrentTimeTest.4dm": {
+		"startSelection": 78,
+		"endSelection": 78,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T18:32:17.415Z"
+	},
+	"Sources/Methods/runPremissionsTest.4dm": {
+		"startSelection": 51,
+		"endSelection": 51,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T18:18:02.413Z"
+	}
+}

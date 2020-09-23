@@ -1,0 +1,105 @@
+﻿{
+	"BasicTest": {
+		"functions": {
+			"runTest": 2147483609
+		},
+		"extends": "Test",
+		"constructorID": 2147483610
+	},
+	"BasicUnitTest": {
+		"functions": {
+			"loadTests": 2147483589,
+			"beforeAllTests": 2147483588,
+			"beforeEachTest": 2147483587,
+			"afterEachTest": 2147483586,
+			"afterAllTests": 2147483585
+		},
+		"extends": "UnitTest",
+		"constructorID": 2147483590
+	},
+	"Error": {
+		"functions": {},
+		"extends": "Exception",
+		"constructorID": 2147483569
+	},
+	"CircleTest": {
+		"functions": {
+			"runTest": 2147483582
+		},
+		"extends": "Test",
+		"constructorID": 2147483583
+	},
+	"Exception": {
+		"functions": {
+			"showStackTrace": 2147483571
+		},
+		"extends": "Loggable",
+		"constructorID": 2147483572
+	},
+	"CircleUnitTest": {
+		"functions": {
+			"loadTests": 2147483580
+		},
+		"extends": "UnitTest"
+	},
+	"Loggable": {
+		"functions": {
+			"getFullName": 2147483577,
+			"getLocation": 2147483576,
+			"getDetailed": 2147483575,
+			"getProcess": 2147483574
+		},
+		"constructorID": 2147483578
+	},
+	"LogLine": {
+		"functions": {},
+		"extends": "Loggable",
+		"constructorID": 2147483567
+	},
+	"PermissionTest": {
+		"functions": {}
+	},
+	"PermissionUnitTest": {
+		"functions": {},
+		"extends": "UnitTest"
+	},
+	"Test": {
+		"functions": {
+			"runTest": 2147483619,
+			"log": 2147483618,
+			"assertEquals": 2147483617,
+			"assertFail": 2147483616,
+			"assertTrue": 2147483615,
+			"assertFalse": 2147483614,
+			"isPass": 2147483613,
+			"getName": 2147483612
+		},
+		"constructorID": 2147483620
+	},
+	"UnitTest": {
+		"functions": {
+			"loadTests": 2147483606,
+			"pushTest": 2147483605,
+			"beforeAllTests": 2147483604,
+			"setCurrent": 2147483603,
+			"beforeEachTest": 2147483602,
+			"afterEachTest": 2147483601,
+			"afterAllTests": 2147483600,
+			"log": 2147483599,
+			"assertEquals": 2147483598,
+			"assertFail": 2147483597,
+			"assertTrue": 2147483596,
+			"assertFalse": 2147483595,
+			"isPass": 2147483594,
+			"resetTests": 2147483593,
+			"testStatus": 2147483592
+		},
+		"constructorID": 2147483607
+	},
+	"UserEntity": {
+		"functions": {
+			"isAllow": 2147483565
+		},
+		"extends": "Entity"
+	}
+}

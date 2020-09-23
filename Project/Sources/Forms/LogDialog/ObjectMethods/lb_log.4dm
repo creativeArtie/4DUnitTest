@@ -1,0 +1,1 @@
+handleLoggerListbox(Self:C308;Form:C1466.log)
