@@ -84,6 +84,9 @@
 		"runExit": {
 			"timeStamp": "2020-08-18T18:03:30.350Z"
 		},
+		"runPremissionsTest": {
+			"timeStamp": "2020-09-23T18:18:02.413Z"
+		},
 		"runStartup": {
 			"timeStamp": "2020-09-11T19:04:59.549Z"
 		},
@@ -95,9 +98,6 @@
 		},
 		"test": {
 			"timeStamp": "2020-09-22T23:25:43.043Z"
-		},
-		"runPremissionsTest": {
-			"timeStamp": "2020-09-23T18:18:02.413Z"
 		},
 		"throwsException": {
 			"timeStamp": "2020-09-16T17:20:01.134Z"

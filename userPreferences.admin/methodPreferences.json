@@ -549,13 +549,13 @@
 		"stamp": "2020-09-15T21:25:54.078Z"
 	},
 	"Sources/Classes/PermissionUnitTest.4dm": {
-		"startSelection": 54,
-		"endSelection": 54,
+		"startSelection": 17,
+		"endSelection": 35,
 		"firstSelectedLine": 3,
 		"lastSelectedLine": 3,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-23T18:40:46.573Z"
+		"stamp": "2020-09-23T19:00:43.348Z"
 	},
 	"Sources/Classes/UserEntity.4dm": {
 		"startSelection": 31,
@@ -603,13 +603,13 @@
 		"stamp": "2020-09-23T18:31:23.552Z"
 	},
 	"Sources/Classes/PermissionUseCurrentTimeTest.4dm": {
-		"startSelection": 78,
-		"endSelection": 78,
-		"firstSelectedLine": 2,
-		"lastSelectedLine": 2,
+		"startSelection": 54,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-23T18:32:17.415Z"
+		"stamp": "2020-09-23T18:51:22.239Z"
 	},
 	"Sources/Methods/runPremissionsTest.4dm": {
 		"startSelection": 51,

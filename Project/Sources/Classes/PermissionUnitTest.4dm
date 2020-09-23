@@ -6,6 +6,7 @@ Function loadTests
 	This:C1470.pushTest(cs:C1710.PermssionBasicTest.new("in range";True:C214))
 	This:C1470.pushTest(cs:C1710.PermssionBasicTest.new("at max hour";True:C214))
 	This:C1470.pushTest(cs:C1710.PermssionBasicTest.new("after";False:C215))
+	
 Function beforeAllTests
 	This:C1470.log("Backup useTime")
 	This:C1470.backupUseTime:=useTime
@@ -15,7 +16,7 @@ Function beforeAllTests
 	This:C1470.entity.allowStart:=?08:00:00?
 	This:C1470.entity.allowEnd:=?12:00:00?
 	
-	This:C1470.log("This helps how to set useTime")
+	// test counter
 	This:C1470.counter:=0
 	
 Function beforeEachTest
@@ -39,7 +40,6 @@ Function beforeEachTest
 	
 	
 Function afterEachTest
-	This:C1470.log("Increase the counter")
 	This:C1470.counter:=This:C1470.counter+1
 	
 Function afterAllTests

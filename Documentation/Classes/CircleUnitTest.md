@@ -7,7 +7,7 @@ Run `runCircleTest` Method to see how it work.
 
 This class with test circle_formula with two cases.
 
-### CircleTest Class
+### `CircleTest Class`
 
 Line 1: The class needs to be extends `Test`:
 
@@ -34,7 +34,7 @@ Function runTest
 	This.assertEquals(This.expect;circle_formula(This.input))
 ```
 
-### CircleUnitTest Class
+### Main Class
 
 Line 1: This class needs to be extending `UnitTest`:
 
