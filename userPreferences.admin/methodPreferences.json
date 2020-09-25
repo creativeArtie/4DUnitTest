@@ -117,10 +117,10 @@
 		"stamp": "2020-08-18T18:09:42.091Z"
 	},
 	"Sources/Methods/logDisplay.4dm": {
-		"startSelection": 17,
-		"endSelection": 17,
-		"firstSelectedLine": 2,
-		"lastSelectedLine": 2,
+		"startSelection": 18,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 6,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-08-21T23:16:33.424Z"
@@ -144,10 +144,10 @@
 		"stamp": "2020-09-22T23:25:43.043Z"
 	},
 	"Sources/Classes/Test.4dm": {
-		"startSelection": 7,
-		"endSelection": 7,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 5,
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-15T21:43:30.799Z"
@@ -200,8 +200,8 @@
 	"Sources/Methods/assert_displayUnitTest.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-15T19:28:10.463Z"
@@ -288,31 +288,31 @@
 		"stamp": "2020-08-21T23:46:32.328Z"
 	},
 	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_run.4dm": {
-		"startSelection": 17,
-		"endSelection": 17,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 5,
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-22T20:22:35.022Z"
+		"stamp": "2020-09-25T18:11:55.633Z"
 	},
 	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_clear.4dm": {
 		"startSelection": 17,
 		"endSelection": 17,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-25T18:11:35.841Z"
+	},
+	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_save.4dm": {
+		"startSelection": 62,
+		"endSelection": 62,
 		"firstSelectedLine": 5,
 		"lastSelectedLine": 5,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-22T19:04:57.906Z"
-	},
-	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_save.4dm": {
-		"startSelection": 26,
-		"endSelection": 26,
-		"firstSelectedLine": 1,
-		"lastSelectedLine": 1,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2020-09-14T18:27:01.074Z"
+		"stamp": "2020-09-25T18:20:44.732Z"
 	},
 	"Sources/Forms/LogDialog/ObjectMethods/lb_log.4dm": {
 		"startSelection": 34,
@@ -549,13 +549,13 @@
 		"stamp": "2020-09-15T21:25:54.078Z"
 	},
 	"Sources/Classes/PermissionUnitTest.4dm": {
-		"startSelection": 17,
-		"endSelection": 35,
-		"firstSelectedLine": 3,
-		"lastSelectedLine": 3,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 39,
+		"lastSelectedLine": 39,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-23T19:00:43.348Z"
+		"stamp": "2020-09-25T17:56:35.607Z"
 	},
 	"Sources/Classes/UserEntity.4dm": {
 		"startSelection": 31,
@@ -594,30 +594,66 @@
 		"stamp": "2020-09-23T17:57:45.322Z"
 	},
 	"Sources/Classes/PermssionBasicTest.4dm": {
-		"startSelection": 36,
-		"endSelection": 36,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 5,
+		"startSelection": 38,
+		"endSelection": 38,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-23T18:31:23.552Z"
+		"stamp": "2020-09-25T18:06:18.879Z"
 	},
 	"Sources/Classes/PermissionUseCurrentTimeTest.4dm": {
-		"startSelection": 54,
-		"endSelection": 0,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 0,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2020-09-23T18:51:22.239Z"
-	},
-	"Sources/Methods/runPremissionsTest.4dm": {
-		"startSelection": 51,
-		"endSelection": 51,
+		"startSelection": 21,
+		"endSelection": 21,
 		"firstSelectedLine": 3,
 		"lastSelectedLine": 3,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-23T18:18:02.413Z"
+		"stamp": "2020-09-25T18:06:10.206Z"
+	},
+	"Sources/Methods/runPremissionsTest.4dm": {
+		"startSelection": 51,
+		"endSelection": 51,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-25T18:00:45.006Z"
+	},
+	"Trash/Classes/UserEntity.4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-23T17:52:22.705Z"
+	},
+	"Sources/Methods/isUserAllowed.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-25T17:57:01.793Z"
+	},
+	"Sources/Forms/Premissions/method.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-25T18:03:03.206Z"
+	},
+	"Sources/Methods/assert_examples.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-25T18:21:34.598Z"
 	}
 }

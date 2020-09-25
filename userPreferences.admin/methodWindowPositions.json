@@ -198,8 +198,8 @@
 		"height": 400
 	},
 	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_run.4dm": {
-		"left": 460,
-		"top": 463,
+		"left": 394,
+		"top": 257,
 		"width": 778,
 		"height": 400
 	},
@@ -384,8 +384,8 @@
 		"height": 496
 	},
 	"Sources/Classes/PermissionUnitTest.4dm": {
-		"left": 366,
-		"top": 494,
+		"left": 306,
+		"top": 204,
 		"width": 777,
 		"height": 485
 	},
@@ -420,8 +420,8 @@
 		"height": 485
 	},
 	"Sources/Classes/PermissionUseCurrentTimeTest.4dm": {
-		"left": 109,
-		"top": 259,
+		"left": 101,
+		"top": 534,
 		"width": 966,
 		"height": 400
 	},
@@ -430,5 +430,29 @@
 		"top": 254,
 		"width": 778,
 		"height": 400
+	},
+	"Trash/Classes/UserEntity.4dm": {
+		"left": 447,
+		"top": 491,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Methods/isUserAllowed.4dm": {
+		"left": 447,
+		"top": 491,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Forms/Premissions/method.4dm": {
+		"left": 240,
+		"top": 398,
+		"width": 777,
+		"height": 485
+	},
+	"Sources/Methods/assert_examples.4dm": {
+		"left": 499,
+		"top": 239,
+		"width": 773,
+		"height": 486
 	}
 }

@@ -18,6 +18,9 @@
 				"shared": true
 			}
 		},
+		"assert_examples": {
+			"timeStamp": "2020-09-25T18:21:34.598Z"
+		},
 		"assert_log": {
 			"timeStamp": "2020-09-15T19:28:13.169Z",
 			"attributes": {
@@ -66,6 +69,9 @@
 		"handleLoggerListbox": {
 			"timeStamp": "2020-09-22T22:35:13.231Z"
 		},
+		"isUserAllowed": {
+			"timeStamp": "2020-09-25T17:57:01.793Z"
+		},
 		"logDisplay": {
 			"timeStamp": "2020-08-21T23:16:33.424Z"
 		},
@@ -85,7 +91,7 @@
 			"timeStamp": "2020-08-18T18:03:30.350Z"
 		},
 		"runPremissionsTest": {
-			"timeStamp": "2020-09-23T18:18:02.413Z"
+			"timeStamp": "2020-09-25T18:00:45.006Z"
 		},
 		"runStartup": {
 			"timeStamp": "2020-09-11T19:04:59.549Z"

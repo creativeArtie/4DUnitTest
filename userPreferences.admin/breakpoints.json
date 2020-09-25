@@ -2,8 +2,10 @@
 	{
 		"line": 1,
 		"method": {
-			"type": 1,
-			"methodName": "runPremissionsTest"
+			"type": 10,
+			"className": "PermissionUnitTest",
+			"functionName": "beforeEachTest",
+			"methodPath": "/SOURCES/Classes/PermissionUnitTest.4dm"
 		}
 	},
 	{
@@ -13,6 +15,77 @@
 			"className": "PermssionBasicTest",
 			"functionName": "runTest",
 			"methodPath": "/SOURCES/Classes/PermssionBasicTest.4dm"
+		}
+	},
+	{
+		"line": 2,
+		"method": {
+			"type": 10,
+			"className": "PermissionUnitTest",
+			"functionName": "afterAllTests",
+			"methodPath": "/SOURCES/Classes/PermissionUnitTest.4dm"
+		}
+	},
+	{
+		"line": 2,
+		"method": {
+			"type": 10,
+			"className": "PermissionUnitTest",
+			"functionName": "beforeAllTests",
+			"methodPath": "/SOURCES/Classes/PermissionUnitTest.4dm"
+		}
+	},
+	{
+		"line": 1,
+		"method": {
+			"type": 10,
+			"className": "CircleTest",
+			"functionName": "runTest",
+			"methodPath": "/SOURCES/Classes/CircleTest.4dm"
+		}
+	},
+	{
+		"line": 1,
+		"method": {
+			"type": 10,
+			"className": "CircleUnitTest",
+			"functionName": "loadTests",
+			"methodPath": "/SOURCES/Classes/CircleUnitTest.4dm"
+		}
+	},
+	{
+		"line": 5,
+		"method": {
+			"type": 1,
+			"methodName": "assert_examples"
+		}
+	},
+	{
+		"line": 1,
+		"method": {
+			"type": 1,
+			"methodName": "test"
+		}
+	},
+	{
+		"line": 6,
+		"method": {
+			"type": 1,
+			"methodName": "assert_examples"
+		}
+	},
+	{
+		"line": 7,
+		"method": {
+			"type": 1,
+			"methodName": "assert_examples"
+		}
+	},
+	{
+		"line": 8,
+		"method": {
+			"type": 1,
+			"methodName": "assert_examples"
 		}
 	}
 ]

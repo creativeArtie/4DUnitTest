@@ -1,6 +1,26 @@
 ﻿[
 	{
 		"type": 66,
+		"formula": "$0"
+	},
+	{
+		"type": 66,
+		"formula": "$time"
+	},
+	{
+		"type": 66,
+		"formula": "Time:C179($1.allowStart)"
+	},
+	{
+		"type": 66,
+		"formula": "Time:C179($1.allowEnd)"
+	},
+	{
+		"type": 66,
+		"formula": "This:C1470.pass"
+	},
+	{
+		"type": 66,
 		"formula": "This:C1470"
 	}
 ]

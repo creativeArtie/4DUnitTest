@@ -11,13 +11,16 @@
 	},
 	"complex tests": {
 		"methods": [
+			"isUserAllowed",
 			"runPremissionsTest"
+		],
+		"forms": [
+			"Premissions"
 		],
 		"classes": [
 			"PermissionUnitTest",
 			"PermissionUseCurrentTimeTest",
-			"PermssionBasicTest",
-			"UserEntity"
+			"PermssionBasicTest"
 		]
 	},
 	"example": {

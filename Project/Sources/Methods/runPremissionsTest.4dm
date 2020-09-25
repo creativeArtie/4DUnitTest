@@ -1,6 +1,8 @@
 //%attributes = {}
-var useTime : Time
-useTime:=?14:00:00?
-ALERT:C41("Before unit test useTime: "+String:C10(useTime))
+C_TIME:C306(<>useTime)
+<>useTime:=?14:00:00?
 assert_displayUnitTest(cs:C1710.PermissionUnitTest.new())
-ALERT:C41("After unit test useTime: "+String:C10(useTime))
+
+$win:=Open form window:C675("Premissions")
+DIALOG:C40("Premissions")
+CLOSE WINDOW:C154($win)

@@ -1,4 +1,10 @@
 ﻿{
+	"Sources/Forms/Premissions/form.4DForm": {
+		"left": -4,
+		"top": 152,
+		"width": 1089,
+		"height": 754
+	},
 	"Sources/Forms/UnitTestDisplay/form.4DForm": {
 		"left": -4,
 		"top": 152,
