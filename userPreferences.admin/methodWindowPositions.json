@@ -90,10 +90,10 @@
 		"height": 488
 	},
 	"Sources/Methods/test.4dm": {
-		"left": 129,
-		"top": 325,
-		"width": 778,
-		"height": 400
+		"left": 197,
+		"top": 281,
+		"width": 1280,
+		"height": 861
 	},
 	"Sources/Classes/Test.4dm": {
 		"left": 463,
@@ -126,8 +126,8 @@
 		"height": 488
 	},
 	"Sources/Classes/BasicUnitTest.4dm": {
-		"left": 366,
-		"top": 494,
+		"left": 111,
+		"top": 484,
 		"width": 777,
 		"height": 485
 	},
@@ -450,9 +450,9 @@
 		"height": 485
 	},
 	"Sources/Methods/assert_examples.4dm": {
-		"left": 499,
-		"top": 239,
+		"left": 7,
+		"top": 747,
 		"width": 773,
-		"height": 486
+		"height": 509
 	}
 }

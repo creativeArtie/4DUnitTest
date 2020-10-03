@@ -135,13 +135,13 @@
 		"stamp": "2020-09-15T18:05:02.383Z"
 	},
 	"Sources/Methods/test.4dm": {
-		"startSelection": 26,
-		"endSelection": 26,
-		"firstSelectedLine": 12,
-		"lastSelectedLine": 12,
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-22T23:25:43.043Z"
+		"stamp": "2020-09-30T19:14:02.885Z"
 	},
 	"Sources/Classes/Test.4dm": {
 		"startSelection": 12,
@@ -189,10 +189,10 @@
 		"stamp": "2020-09-23T17:42:47.353Z"
 	},
 	"Sources/Classes/BasicUnitTest.4dm": {
-		"startSelection": 46,
-		"endSelection": 46,
-		"firstSelectedLine": 12,
-		"lastSelectedLine": 12,
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-23T17:53:40.611Z"
@@ -306,13 +306,13 @@
 		"stamp": "2020-09-25T18:11:35.841Z"
 	},
 	"Sources/Forms/UnitTestDisplay/ObjectMethods/b_save.4dm": {
-		"startSelection": 62,
-		"endSelection": 62,
+		"startSelection": 8,
+		"endSelection": 8,
 		"firstSelectedLine": 5,
 		"lastSelectedLine": 5,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-25T18:20:44.732Z"
+		"stamp": "2020-09-29T17:12:11.095Z"
 	},
 	"Sources/Forms/LogDialog/ObjectMethods/lb_log.4dm": {
 		"startSelection": 34,
@@ -612,8 +612,8 @@
 		"stamp": "2020-09-25T18:06:10.206Z"
 	},
 	"Sources/Methods/runPremissionsTest.4dm": {
-		"startSelection": 51,
-		"endSelection": 51,
+		"startSelection": 16,
+		"endSelection": 16,
 		"firstSelectedLine": 2,
 		"lastSelectedLine": 2,
 		"folding": [],
@@ -648,12 +648,12 @@
 		"stamp": "2020-09-25T18:03:03.206Z"
 	},
 	"Sources/Methods/assert_examples.4dm": {
-		"startSelection": 18,
-		"endSelection": 18,
-		"firstSelectedLine": 7,
-		"lastSelectedLine": 7,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-25T18:21:34.598Z"
+		"stamp": "2020-09-29T17:30:25.387Z"
 	}
 }

@@ -24,8 +24,8 @@
 				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\tx720\cf1\protect\f0\fs17 The first line of the method call that isn't UnitTest related\f1}																																								]]>				</comment>
-				<comment format="text"><![CDATA[The first line of the method call that isn't UnitTest related																																								]]>				</comment>
+\pard\tx720\cf1\protect\f0\fs17 The first line of the method call that isn't UnitTest related\f1}																																												]]>				</comment>
+				<comment format="text"><![CDATA[The first line of the method call that isn't UnitTest related																																												]]>				</comment>
 			</field_extra>
 		</field>
 		<field name="name" uuid="8C319BA66A9B8C4CB8D912210B2E1411" type="10" limiting_length="31" never_null="true" id="3">
@@ -33,8 +33,8 @@
 				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\tx720\cf1\protect\f0\fs17 The first name of the method that isn't UnitTest related\f1}																																								]]>				</comment>
-				<comment format="text"><![CDATA[The first name of the method that isn't UnitTest related																																								]]>				</comment>
+\pard\tx720\cf1\protect\f0\fs17 The first name of the method that isn't UnitTest related\f1}																																												]]>				</comment>
+				<comment format="text"><![CDATA[The first name of the method that isn't UnitTest related																																												]]>				</comment>
 			</field_extra>
 		</field>
 		<field name="database" uuid="1FB337D2FB6BE94A9CF36245AFEBD4FD" type="10" limiting_length="255" never_null="true" id="4">
@@ -42,8 +42,8 @@
 				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\tx720\cf1\protect\f0\fs17 The first name of the databaase that isn't UnitTest related\f1}																																								]]>				</comment>
-				<comment format="text"><![CDATA[The first name of the databaase that isn't UnitTest related																																								]]>				</comment>
+\pard\tx720\cf1\protect\f0\fs17 The first name of the databaase that isn't UnitTest related\f1}																																												]]>				</comment>
+				<comment format="text"><![CDATA[The first name of the databaase that isn't UnitTest related																																												]]>				</comment>
 			</field_extra>
 		</field>
 		<field name="type" uuid="91A9B580112B6D4A9E99992E38513C56" type="10" limiting_length="16" never_null="true" id="5">
@@ -51,8 +51,8 @@
 				<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\tx720\cf1\protect\f0\fs17 The first type of the method that isn't UnitTest related\f1}																																								]]>				</comment>
-				<comment format="text"><![CDATA[The first type of the method that isn't UnitTest related																																								]]>				</comment>
+\pard\tx720\cf1\protect\f0\fs17 The first type of the method that isn't UnitTest related\f1}																																												]]>				</comment>
+				<comment format="text"><![CDATA[The first type of the method that isn't UnitTest related																																												]]>				</comment>
 			</field_extra>
 		</field>
 		<field name="message" uuid="A23678E5F320194494EA81F846CB661A" type="10" never_null="true" id="6">
@@ -79,9 +79,9 @@
 {\colortbl ;\red0\green0\blue0;}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
 \pard\tx720\cf1\protect\f0\fs17 The meesage's importance level,\par
-ie. error message, information message and warning message.\f1}																																								]]>				</comment>
+ie. error message, information message and warning message.\f1}																																												]]>				</comment>
 				<comment format="text"><![CDATA[The meesage's importance level,
-ie. error message, information message and warning message.																																								]]>				</comment>
+ie. error message, information message and warning message.																																												]]>				</comment>
 			</field_extra>
 		</field>
 		<field name="logObject" uuid="015A4124F236984BBDA5152513F14EE2" type="21" blob_switch_size="2147483647" never_null="true" id="10"/>

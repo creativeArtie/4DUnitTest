@@ -3,7 +3,11 @@ $name:=OB Class:C1730(Form:C1466).name
 
 Case of 
 	: (Not:C34(OBJECT Get enabled:C1079(*;"b_clear")))
-		log_messaage("Test Reviewed: "+$name;Information message:K38:1;Form:C1466)
+		If (Form:C1466.isPass())
+			log_messaage("Test Unit Reviewed: "+$name;Information message:K38:1;Form:C1466)
+		Else 
+			log_messaage("Error Test Unit Reviewed: "+$name;Warning message:K38:2;Form:C1466)
+		End if 
 	: (Form:C1466.isPass())
 		log_messaage("Test Passed: "+$name;Information message:K38:1;Form:C1466)
 	Else 

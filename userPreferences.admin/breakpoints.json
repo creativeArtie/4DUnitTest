@@ -68,13 +68,6 @@
 		}
 	},
 	{
-		"line": 6,
-		"method": {
-			"type": 1,
-			"methodName": "assert_examples"
-		}
-	},
-	{
 		"line": 7,
 		"method": {
 			"type": 1,
@@ -83,6 +76,22 @@
 	},
 	{
 		"line": 8,
+		"method": {
+			"type": 1,
+			"methodName": "assert_examples"
+		}
+	},
+	{
+		"line": 1,
+		"method": {
+			"type": 10,
+			"className": "PermissionUnitTest",
+			"functionName": "loadTests",
+			"methodPath": "/SOURCES/Classes/PermissionUnitTest.4dm"
+		}
+	},
+	{
+		"line": 6,
 		"method": {
 			"type": 1,
 			"methodName": "assert_examples"
